@@ -1,0 +1,1106 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Montserrat:wght@400;500;600;700;800&display=swap");
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+html {
+  font-size: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #1d1d1d;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #1d1d1d;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1d1d1d;
+}
+
+.navbar-brand img {
+  width: 15rem;
+}
+
+.prenav {
+  background-color: #f7d9c9;
+}
+
+.prenav ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+.prenav ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  color: #1d1d1d;
+}
+
+.navbar-dark .navbar-toggler {
+  color: #ba6b36;
+}
+
+.heroBanner {
+  background-color: #f2e8dc;
+}
+
+.heroBanner .lifeStyle {
+  background-color: #f7d9c9;
+  height: 100vh;
+  padding: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.heroBanner .lifeStyle a {
+  text-decoration: none;
+  padding: 1.5rem;
+}
+
+.heroBanner .lifeStyle h2 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.875rem;
+  font-weight: 300;
+}
+
+.heroBanner .lifeStyle i {
+  padding-left: 0.1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.heroBanner .slides {
+  height: 100vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: relative;
+}
+
+.videoInsert {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: auto;
+  height: 100%;
+  z-index: -100;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.btnLearn {
+  font-size: 0.9rem;
+  color: #ba6b36;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btnLearn:hover {
+  color: white;
+}
+
+.btnLearn:hover i {
+  padding-left: 1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.secondSec {
+  height: 80vh;
+  padding: 60px 40px;
+}
+
+.secondSec .container {
+  height: 100%;
+}
+
+.secondSec .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: auto;
+}
+
+.imgBox {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.imgBox img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.imgBox li {
+  padding: 0.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  width: 15rem;
+  text-align: center;
+}
+
+.imgBox li:hover img {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.imgBox li a {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  color: #222222;
+}
+
+.imgBox li a:hover {
+  color: #ba6b36;
+}
+
+.imgBox li:nth-of-type(1) {
+  background-color: #f7f3f0;
+}
+
+.imgBox li:nth-of-type(1):hover {
+  background-color: #f8d8c8;
+}
+
+.imgBox li:nth-of-type(2) {
+  background-color: #ecd3ce;
+}
+
+.imgBox li:nth-of-type(2):hover {
+  background-color: #f7f3f0;
+}
+
+.imgBox li:nth-of-type(3) {
+  background-color: #f8d8c8;
+}
+
+.imgBox li:nth-of-type(3):hover {
+  background-color: #f7f3f0;
+}
+
+.lookAround::after {
+  content: 'LOOK AROUND';
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  color: #b6967d;
+  font-size: 1.2rem;
+  font-weight: 500;
+  right: 0;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.lookAround::before {
+  content: 'LOOK AROUND';
+  left: 0;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  color: #b6967d;
+  font-size: 1.2rem;
+  font-weight: 500;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.secThree {
+  background-color: #f7d9c9;
+  padding: 5%;
+  position: relative;
+}
+
+.secThree .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 80vh;
+}
+
+.secThree .container-fluid img {
+  border: 10px solid #f7f3f0;
+}
+
+.secThree .container-fluid .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 5%;
+  padding-right: 0;
+}
+
+.secThree .container-fluid .content h2 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.85rem;
+  font-weight: 400;
+  color: #222222;
+}
+
+.secThree .container-fluid .content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+  color: #222222;
+}
+
+.secThree .container-fluid .content .btnTrans {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #222;
+}
+
+.secThree .container-fluid .content .btnTrans:hover {
+  background-color: #f2e8dc;
+  color: #ba6b36;
+}
+
+.secFive {
+  background-color: #f2e8dc;
+  padding: 5%;
+  position: relative;
+}
+
+.secFive .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 80vh;
+}
+
+.secFive .container-fluid img {
+  border: 10px solid #f7f3f0;
+}
+
+.secFive .container-fluid .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  padding-right: 0;
+}
+
+.secFive .container-fluid .content h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #b6967d;
+  padding-bottom: 2rem;
+}
+
+.secFive .container-fluid .content p {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.25rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 300;
+  padding-bottom: 2rem;
+  color: #222222;
+  line-height: 2.6rem;
+}
+
+.secFive .container-fluid .content .linkBtn {
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fac3b8;
+}
+
+.secSix {
+  background-color: #f7d9c9;
+  padding: 5%;
+  position: relative;
+}
+
+.secSix .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 80vh;
+}
+
+.secSix .container-fluid img {
+  -webkit-border-top-left-radius: 50%;
+  -webkit-border-top-right-radius: 50%;
+  -moz-border-radius-topleft: 50%;
+  -moz-border-radius-topright: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.secSix .container-fluid .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 5%;
+  padding-left: 0;
+}
+
+.secSix .container-fluid .content h2 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.85rem;
+  font-weight: 300;
+  color: #222222;
+}
+
+.secSix .container-fluid .content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+  font-weight: 600;
+  color: #222222;
+}
+
+.secSix .container-fluid .content .btnTrans {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #222;
+}
+
+.secSix .container-fluid .content .btnTrans:hover {
+  background-color: #f2e8dc;
+  color: #ba6b36;
+}
+
+.shopTemplate::after {
+  content: 'SHOP TEMPLATES';
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  color: #b6967d;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  right: 0;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.shopTemplate::before {
+  content: 'SHOP TEMPLATES';
+  left: 0;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  color: #b6967d;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.afterImg {
+  width: 12rem;
+  position: absolute;
+  top: -7rem;
+  right: 0%;
+}
+
+.beforeImg {
+  width: 12rem;
+  position: absolute;
+  bottom: -7rem;
+  left: 0%;
+}
+
+.secFour {
+  padding: 5% 0;
+}
+
+.secFour .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.secFour .container-fluid .heading {
+  padding: 5%;
+}
+
+.secFour .container-fluid .heading h2 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.875rem;
+  font-weight: 400;
+}
+
+.secFour .container-fluid .heading h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.15rem;
+}
+
+.secFour .owl-carousel .owl-item {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secFour .owl-nav {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.secFour .owl-nav button:focus {
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+.secFour .owl-nav span {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(247, 217, 201, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+.secFour .owl-nav .owl-prev {
+  left: 10%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: red;
+}
+
+.secFour .owl-nav .owl-next {
+  right: 10%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: red;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+  line-height: 0;
+}
+
+.secSeven .container {
+  height: 100%;
+}
+
+.secSeven .container #ctnt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  height: 100%;
+}
+
+.contentBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contentBox .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contentBox h2 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.6rem;
+  font-weight: 300;
+  position: relative;
+  margin-left: -10%;
+  padding-right: 7rem;
+}
+
+.contentBox p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 1.5rem;
+  font-weight: 500;
+  padding: 3rem;
+}
+
+.imageBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.btnMore {
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ba6b36;
+  text-align: center;
+}
+
+.secEight {
+  background-color: #f8f4f1;
+  padding: 10rem 2rem;
+  text-align: center;
+}
+
+.secEight .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.secEight h2 {
+  color: #b6967d;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.secEight p {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.25rem;
+  padding: 0 5rem 2rem;
+  line-height: 2.25rem;
+}
+
+.secEight .form-control {
+  border: 2px solid #b6967d;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #b6967d;
+  padding: 10px;
+}
+
+.secEight .form-control::-webkit-input-placeholder {
+  color: #b6967d;
+}
+
+.secEight .form-control:-ms-input-placeholder {
+  color: #b6967d;
+}
+
+.secEight .form-control::-ms-input-placeholder {
+  color: #b6967d;
+}
+
+.secEight .form-control::placeholder {
+  color: #b6967d;
+}
+
+.secEight .form-control:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+
+.secEight .btnSubmit {
+  background-color: #ba6b36;
+  color: #f7f3f0;
+  border: 0;
+  outline: 0;
+  padding: 0 25px;
+  margin-left: 0.5rem;
+}
+
+footer {
+  padding-top: 8rem;
+}
+
+.menuList {
+  padding-bottom: 4rem;
+}
+
+.menuList h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ba6b36;
+}
+
+.menuList ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #ba6b36;
+}
+
+.copyright {
+  background-color: #f7d9c9;
+}
+
+.copyright p {
+  margin-bottom: 0;
+  padding: 0.8rem 0rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  color: #111111;
+}
+
+.copyright p a {
+  color: #111111;
+}
+
+.navbar-nav {
+  width: 30%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 767.98px) {
+  .prenav .container {
+    padding: 0;
+  }
+  .prenav ul {
+    text-align: center;
+  }
+  .prenav ul li {
+    font-size: 0.75rem;
+    padding-right: 1rem;
+    padding-left: 0rem;
+    letter-spacing: 0;
+  }
+  .navbar-brand img {
+    width: 9rem;
+  }
+  .imgBox {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 20%;
+    margin-top: 5%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .imgBox li {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  }
+  .imgBox img {
+    width: 100%;
+  }
+  .lookAround::before {
+    left: -15%;
+  }
+  .lookAround::after {
+    right: -15%;
+  }
+  .heroBanner .lifeStyle {
+    padding: 2rem;
+    position: relative;
+    margin-top: -100vh;
+    background: rgba(247, 217, 201, 0.4);
+  }
+  .afterImg {
+    width: 5rem;
+    position: absolute;
+    top: -3rem;
+    right: 0rem;
+  }
+  .beforeImg {
+    width: 6rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+  }
+  .secThree .container-fluid {
+    height: auto;
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+  }
+  .secThree .container-fluid .content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .secThree .container-fluid .content p {
+    text-align: center;
+  }
+  .secFive .container-fluid {
+    height: auto;
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+  }
+  .secFive .container-fluid .content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .secFive .container-fluid .content p {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+  }
+  .secFive .container-fluid .content h2 {
+    padding: 1rem;
+  }
+  .secSix .container-fluid {
+    height: auto;
+    padding-top: 15% !important;
+    padding-bottom: 15% !important;
+  }
+  .secSix .container-fluid .content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5%;
+    padding-left: 5%;
+  }
+  .secSix .container-fluid .content p {
+    text-align: center;
+  }
+  .secSix .container-fluid .content h2 {
+    font-size: 1.85rem;
+    text-align: center;
+  }
+  .secFour .container-fluid .heading h2 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .shopTemplate:after {
+    right: -15%;
+    font-size: 0.8rem;
+  }
+  .shopTemplate:before {
+    left: -15%;
+    font-size: 0.8rem;
+  }
+  .contentBox {
+    position: relative;
+    margin-top: -30rem;
+  }
+  .contentBox h2 {
+    margin-left: 2rem;
+    padding-right: 0;
+    font-size: 1.85rem;
+    padding-top: 2rem;
+  }
+  .contentBox p {
+    padding: 2rem;
+  }
+  .secEight {
+    padding: 5rem 0rem;
+  }
+  .secEight p {
+    font-size: 1.5rem;
+    padding: 0 0rem 2rem;
+    line-height: 1.85rem;
+  }
+  .form-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .form-row .col {
+    -ms-flex-preferred-size: auto !important;
+        flex-basis: auto !important;
+  }
+  .form-row .form-control {
+    margin-bottom: 1rem;
+  }
+  .form-row .btnSubmit {
+    padding: 0.9rem;
+  }
+  .menuItem {
+    width: 33.3%;
+  }
+  footer {
+    padding-top: 2rem;
+  }
+  footer img {
+    margin-bottom: 2rem;
+  }
+  footer .menuList {
+    padding-bottom: 2rem;
+  }
+  .menuList ul li a {
+    font-size: 0.75rem;
+  }
+  .copyright p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .secFive .container-fluid {
+    height: auto !important;
+  }
+  .shopTemplate::before {
+    left: -5%;
+  }
+  .shopTemplate::after {
+    right: -5%;
+  }
+  .heroBanner .lifeStyle {
+    height: 50vh;
+    padding: 5rem;
+  }
+  .imgBox {
+    padding-top: 95%;
+  }
+  .secFour {
+    padding-top: 10%;
+  }
+  .navbar-brand img {
+    width: 12rem;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
